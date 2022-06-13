@@ -5,6 +5,9 @@ BACKEND:
 - cd laravel-vue-ums
 - composer install
 - npm install
+
+// Create .env file and copy the content in .env.example
+
 - php artisan key:generate
 
 // create database name = laravel_ums
