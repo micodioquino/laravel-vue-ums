@@ -3,17 +3,13 @@ git clone https://github.com/micodioquino/laravel-vue-ums.git
 BACKEND: 
 
 - cd laravel-vue-ums
-
 - composer install
-
 - npm install
-
 - php artisan key:generate
 
-- create database name = laravel_ums
+// create database name = laravel_ums
 
 - php artisan migrate
-
 - php artisan db:seed
 
 // user default password is "password"
@@ -23,8 +19,6 @@ BACKEND:
 FRONTEND: 
 
 - cd laravel-vue-ums/vue
-
 - npm install
-
 - npm run dev
 
