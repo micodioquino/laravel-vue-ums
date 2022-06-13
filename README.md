@@ -15,6 +15,7 @@ BACKEND:
 - php artisan migrate
 
 - php artisan db:seed
+
 // user default password is "password"
 
 - php artisan serve
