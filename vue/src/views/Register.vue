@@ -10,8 +10,8 @@
       </p>
   </div>
   <form class="mt-8 space-y-6" @submit="register">
-    <div class="py-3 px-5 bg-red-500 text-white rounded">
-      <div v-if="errorMsg" v-for="(err, index) in errorMsg">
+    <div v-if="errorMsg" class="py-3 px-5 bg-red-500 text-white rounded">
+      <div v-for="(err, index) in errorMsg">
           {{ err }}
       </div>
     </div>
