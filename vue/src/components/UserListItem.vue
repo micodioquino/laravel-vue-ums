@@ -20,7 +20,7 @@
                 >
                 Edit
                 </router-link>
-                <span class="text-gray-300">|</span>
+                <span class="text-gray-300 mr-2 ml-2"></span>
                 <button
                     v-if="user.id"
                     type="button"
